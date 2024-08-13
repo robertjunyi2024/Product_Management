@@ -18,14 +18,14 @@ Refer to "ProductService.pptx" in this repository for all the design and impleme
 
 ## Getting Started
 
-**Clone the repository:**
+1. **Clone the repository:**
 
     ```sh
     git clone git@github.com:robertjunyi2024/Product_Management.git
     cd Product_Management
     ```
 
-**Run docker compose:**
+2. **Run docker compose:**
 
     ```sh
     docker compose up
@@ -37,36 +37,36 @@ After all the containers are up, access the browser through the URL:
 
 and log in as admin (password: `password`).
 
-1. Click the **Create realm** button, and enter a real name: `ProductManagement`.
+ Click the **Create realm** button, and enter a real name: `ProductManagement`.
 
-2. Click **"Clients"** on the left panel and click the **Create client** button. Enter the **Client ID**: `oci-client`.
+ Click **"Clients"** on the left panel and click the **Create client** button. Enter the **Client ID**: `oci-client`.
 
-3. Under **Access settings**, and **Valid redirect URIs**, enter:
+ Under **Access settings**, and **Valid redirect URIs**, enter:
    - `http://localhost:3000/*`
    - `http://localhost:3000`
 
-4. In **Web origins**, enter:
+ In **Web origins**, enter:
    - `/*`
    - `http://localhost:3000`
 
-5. Under **Users** on the left panel, click the **Create new user** button and enter a user's information. Set the user's password under the **Credentials** tab.
+ Under **Users** on the left panel, click the **Create new user** button and enter a user's information. Set the user's password under the **Credentials** tab.
 
 
-**Run first microservice:**
+3. **Run first microservice:**
 
     ```sh
     cd Product_Management/product-microservice
     mvn spring-boot:run
     ```
 
-**Run second microservice:**
+4. **Run second microservice:**
 
     ```sh
     cd Product_Management/persistence-microservice
     mvn spring-boot:run
     ```
 
-**Run ReactJS client:**
+5. **Run ReactJS client:**
 
     ```sh
     cd Product_Management/react-app
@@ -74,7 +74,7 @@ and log in as admin (password: `password`).
     npm start
     ```
 
-**Browser Access:**
+6. **Browser Access:**
 
 http://localhost:3000/
 
