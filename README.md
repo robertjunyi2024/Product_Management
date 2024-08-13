@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Design and Implementation](#implementation)
+- [Implementation](#implementation)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
@@ -12,7 +12,7 @@
 
 The Product Management system consists of several microservices and a ReactJS UI. This setup enables users to register, view, update, and delete products, as well as navigate through the product list.
 
-## Design and Implementation
+## Implementation
 
 Refer to "ProductService.pptx" in this repository for all the design and implementation information.
 
@@ -64,6 +64,12 @@ and log in as admin (password: `password`).
     ```sh
     cd Product_Management/persistence-microservice
     mvn spring-boot:run
+
+**Run ReactJS client:**
+    ```sh
+    cd Product_Management/react-app
+    npm install
+    npm start
 
 **Browser Access:**
 
