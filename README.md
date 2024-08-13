@@ -83,7 +83,7 @@ http://localhost:3000/
 2. GET /api/v1/products - Get list of products
 3. PUT /api/v1/products/{id}/update-price - Update Product Price
 4. DELETE /api/v1/products/{id} - Delete Product
-5. GET /api/v1/products/{id} - GET /api/v1/products/{id}
+5. GET /api/v1/products/{id} - GET product details
 6. GET /api/v1/products/updates - GET product price update
 7. GET /api/v1/products - Get list of products
 8. GET /api/v1/products/{id} - Get Product Details
