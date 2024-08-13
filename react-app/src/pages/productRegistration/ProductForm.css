@@ -1,0 +1,69 @@
+.product-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center; /* Center-align the text */
+  }
+  
+  .product-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .product-form label {
+    flex: 0 0 120px; /* Adjust width as needed */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .product-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-form button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center; /* Center-align the text */
+    width: 100%; /* Ensure it takes full width of the parent */
+    box-sizing: border-box;
+  }
+  
+  .message.success {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+  }
+  
+  .message.error {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+  }
+  
