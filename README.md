@@ -64,12 +64,15 @@ and log in as admin (password: `password`).
     ```sh
     cd Product_Management/persistence-microservice
     mvn spring-boot:run
+    ```
 
 **Run ReactJS client:**
+
     ```sh
     cd Product_Management/react-app
     npm install
     npm start
+    ```
 
 **Browser Access:**
 
