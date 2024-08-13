@@ -50,7 +50,7 @@ and log in as admin (password: `password`).
    - `http://localhost:3000`
 
 5. Under **Users** on the left panel, click the **Create new user** button and enter a user's information. Set the user's password under the **Credentials** tab.
-`
+
 
 **Run first microservice:**
 
