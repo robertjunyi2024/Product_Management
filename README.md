@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Design & Implementation](#implementation)
+- [Design and Implementation](#implementation)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
@@ -12,7 +12,7 @@
 
 The Product Management system consists of several microservices and a ReactJS UI. This setup enables users to register, view, update, and delete products, as well as navigate through the product list.
 
-## Design & Implementation
+## Design and Implementation
 
 Refer to "ProductService.pptx" in this repository for all the design and implementation information.
 
@@ -68,4 +68,45 @@ and log in as admin (password: `password`).
 **Browser Access:**
 
 http://localhost:3000/
+
+## API Endpoints
+1. POST /api/v1/products - Register Product
+2. GET /api/v1/products - Get list of products
+3. PUT /api/v1/products/{id}/update-price - Update Product Price
+4. DELETE /api/v1/products/{id} - Delete Product
+5. GET /api/v1/products/{id} - GET /api/v1/products/{id}
+6. GET /api/v1/products/updates - GET /api/v1/products/updates
+7. GET /api/v1/products - Get list of products
+8. GET /api/v1/products/{id} - Get Product Details
+9. GET /api/v1/products/exists-by-name? name=<Product_Name> - Check if Product Exists by Name
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+1. **Fork the repository**
+2. **Create a new branch**
+    
+    ```sh
+    git checkout -b feature/new-feature
+    ```
+
+3. **Make your changes**
+4. **Commit your changes**
+    
+    ```sh
+    git commit -m "Add new feature"
+    ```
+
+5. **Push to the branch**
+
+    ```sh
+    git push origin feature/new-feature
+    ``` 
+    
+6. **Open a pull request**
+
+## License
+    
+None
 
