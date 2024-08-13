@@ -84,7 +84,7 @@ http://localhost:3000/
 3. PUT /api/v1/products/{id}/update-price - Update Product Price
 4. DELETE /api/v1/products/{id} - Delete Product
 5. GET /api/v1/products/{id} - GET /api/v1/products/{id}
-6. GET /api/v1/products/updates - GET /api/v1/products/updates
+6. GET /api/v1/products/updates - GET product price update
 7. GET /api/v1/products - Get list of products
 8. GET /api/v1/products/{id} - Get Product Details
 9. GET /api/v1/products/exists-by-name? name=<Product_Name> - Check if Product Exists by Name
